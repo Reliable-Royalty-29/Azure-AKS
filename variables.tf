@@ -1,14 +1,14 @@
 variable "resource_group_name" {
   type        = string
-  description = "AKS"
+  description = "aks-rg"
 }
 variable "location" {
   type        = string
-  description = "EastUs"
+  description = "CentralUS"
 }
 variable "cluster_name" {
   type        = string
-  description = "Shiva"
+  description = "shiva"
 }
 variable "kubernetes_version" {
   type        = string
@@ -20,5 +20,5 @@ variable "system_node_count" {
 }
 variable "acr_name" {
   type        = string
-  description = "Deva"
+  description = "deva"
 }
