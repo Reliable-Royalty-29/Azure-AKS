@@ -47,7 +47,7 @@ It is part of the Kubernetes project and is the primary tool used by administrat
                   
 **Run kubernetes commands**
 
-1. **az aks get-credentials --resource-group aks-rg --name shiva**
+1. **az aks get-credentials --resource-group aks-rg --name shivaa29**
 
 The command az aks get-credentials --resource-group aks-rg --name shiva retrieves the credentials for the AKS cluster named "shiva" deployed in the Azure resource group "aks-rg". Once executed, this command updates the local kubeconfig file, typically located at ~/.kube/config, with the necessary information to authenticate and access the AKS cluster.
 
